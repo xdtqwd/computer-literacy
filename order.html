@@ -1,0 +1,99 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Оформление заказа</title>
+</head>
+<body>
+
+<div class="container mt-5">
+    <h1 class="text-center">Оформление заказа</h1>
+
+    <form>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Личная информация</h4>
+                <div class="form-group">
+                    <label for="name">Имя</label>
+                    <input type="text" class="form-control" id="name" placeholder="Введите ваше имя" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Электронная почта</label>
+                    <input type="email" class="form-control" id="email" placeholder="Введите вашу почту" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Телефон</label>
+                    <input type="text" class="form-control" id="phone" placeholder="Введите ваш телефон" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Адрес доставки</label>
+                    <input type="text" class="form-control" id="address" placeholder="Введите адрес доставки" required>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h4>Способ доставки</h4>
+                <div class="form-group">
+                    <label for="delivery">Выберите способ доставки</label>
+                    <select class="form-control" id="delivery" required>
+                        <option>Почтой</option>
+                        <option>Курьером</option>
+                        <option>Самовывоз</option>
+                    </select>
+                </div>
+                
+                <h4>Способ оплаты</h4>
+                <div class="form-group">
+                    <label for="payment">Выберите способ оплаты</label>
+                    <select class="form-control" id="payment" required>
+                        <option>Наличными при доставке</option>
+                        <option>Банковской картой</option>
+                        <option>Электронные деньги</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        
+        <h4>Ваши товары</h4>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Товар</th>
+                        <th>Количество</th>
+                        <th>Цена</th>
+                        <th>Сумма</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Футболка "Comme des garçons"</td>
+                        <td>1</td>
+                        <td>119€</td>
+                        <td>119€</td>
+                    </tr>
+                    <tr>
+                        <td>Штаны "ZIGGY CHEN"</td>
+                        <td>2</td>
+                        <td>1499 €</td>
+                        <td> 2998€</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" class="text-right">Итого:</td>
+                        <td>3117€</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Подтвердить заказ</button>
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

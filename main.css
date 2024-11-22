@@ -1,0 +1,78 @@
+
+    .marginbody {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    
+    .navbar-brand,
+    .nav-link {
+        color: #ffffff !important;
+    }
+    
+    .nav-link:hover {
+        color: #ffc107 !important;
+    }
+    
+    .container {
+        max-width: 1200px; 
+        padding: 20px; 
+    }
+    
+    .table {
+        background-color: #ffffff; 
+        border-radius: 10px; 
+        overflow: hidden; 
+    }
+    
+    .table th,
+    .table td {
+        vertical-align: middle; 
+    }
+    
+    .table img {
+        border-radius: 5px; 
+    }
+    
+    h1 {
+        color: #343a40; 
+        margin-bottom: 20px; 
+    }
+    
+    h3 {
+        color: #007bff; 
+        margin-top: 20px; 
+    }
+    
+    .btn {
+        border-radius: 20px; 
+        margin-top: 20px; 
+    }
+    .nav-item{
+        border-bottom: #ffffff;
+    }
+    .logo {
+        display: flex; /* Используем flexbox для центрирования */
+        justify-content: center; /* Центрируем по горизонтали */
+        align-items: center; /* Центрируем по вертикали */
+        height: 100vh; /* Устанавливаем высоту контейнера на полную высоту экрана */
+        display: flex; /* Используем flexbox для центрирования */
+        justify-content: center; /* Центрируем по горизонтали */
+        align-items: center; /* Центрируем по вертикали */
+        height: 100vh; /* Устанавливаем высоту контейнера на полную высоту экрана */
+        margin: 20px 0; /* Отступы сверху и снизу для контейнера логотипа */}
+.logo img {
+    max-width: 200px; /* Максимальная ширина логотипа */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+.logo a:hover img {
+    opacity: 0.8; /* Уменьшает непрозрачность логотипа при наведении */
+    transition: opacity 0.3s; /* Плавный переход */
+}
+.navbar-brand{
+
+    margin-left: 50px ;
+}
